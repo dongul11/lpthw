@@ -1,1 +1,1 @@
-print("Let's talk about {my_name}.")
+print("Let's talk about {0}.").format("13")
