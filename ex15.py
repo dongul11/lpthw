@@ -1,8 +1,8 @@
-import sys #Import argument from system
+import sys import argv#Import argument from system
 
-# script, filename = argv # unpack arguments to variables
-script = sys.argv[0]
-filename = sys.argv[1] # another way to do it :)
+script, filename = argv # unpack arguments to variables
+# script = sys.argv[0]
+# filename = sys.argv[1] # another way to do it :)
 
 txt = open(filename) # open file using open() command
 
